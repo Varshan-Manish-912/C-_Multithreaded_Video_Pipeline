@@ -3,7 +3,7 @@
 #include <chrono>
 
 int main() {
-    cv::VideoCapture cap("../videos/sample5.mp4");
+    cv::VideoCapture cap("../videos/sample8.mp4");
     if (!cap.isOpened()) {
         std::cout << "Failed to open video\n";
         return -1;

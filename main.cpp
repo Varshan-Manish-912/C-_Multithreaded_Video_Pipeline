@@ -46,7 +46,7 @@ void processFrames(
     processedFrameQueue.push(cv::Mat());
 }
 int main() {
-    cv::VideoCapture cap("../videos/sample2.mp4");
+    cv::VideoCapture cap("../videos/sample6.mp4");
     if (!cap.isOpened()) {
         std::cout << "Failed to open video\n";
         return -1;
